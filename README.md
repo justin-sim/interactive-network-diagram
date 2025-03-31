@@ -96,7 +96,7 @@ Edit the `src/config.js` file to customize nodes and connections:
 // Example node structure
 {
   id: 'edge-router',           // Unique identifier
-  name: 'fll-edge-router',     // Display name
+  name: 'edge-router',         // Display name
   ip: '172.16.0.1',            // IP address
   type: 'router',              // Node type (affects visual appearance)
   x: 380,                      // Initial X position
