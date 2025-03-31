@@ -183,7 +183,7 @@ const InteractiveNetworkDiagram = () => {
       .attr("font-size", "14px")
       .attr("font-weight", "bold")
       .attr("fill", "#0070A0")
-      .text("fll-Servers");
+      .text("Servers");
       
     svg.append("text")
       .attr("x", 170)
