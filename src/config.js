@@ -1,15 +1,15 @@
 // src/config.js
 export const initialNodes = [
   // On-Prem nodes
-  { id: 'edge-router', name: 'fll-edge-router', ip: '172.16.0.1', type: 'router', x: 380, y: 180, fixed: false },
-  { id: 'firewall', name: 'fll-firewall', ip: '172.16.0.5', type: 'firewall', x: 380, y: 310, fixed: false },
-  { id: 'core-router', name: 'fll-core-router', ip: '172.16.0.6', type: 'router', x: 220, y: 380, fixed: false },
+  { id: 'edge-router', name: 'edge-router', ip: '172.16.0.1', type: 'router', x: 380, y: 180, fixed: false },
+  { id: 'firewall', name: 'firewall', ip: '172.16.0.5', type: 'firewall', x: 380, y: 310, fixed: false },
+  { id: 'core-router', name: 'core-router', ip: '172.16.0.6', type: 'router', x: 220, y: 380, fixed: false },
   { id: 'admin', name: 'admin', ip: '172.16.2.5', type: 'server', x: 100, y: 200, fixed: false },
-  { id: 'masa01', name: 'fll-masa01', ip: '172.16.2.6', type: 'server', x: 170, y: 200, fixed: false },
-  { id: 'masa02', name: 'fll-masa02', ip: '172.16.2.7', type: 'server', x: 240, y: 200, fixed: false },
-  { id: 'red-guac', name: 'fll-red-guac', ip: '172.16.2.253', type: 'server', x: 100, y: 280, fixed: false },
-  { id: 'redkali01', name: 'fll-redkali01', ip: '172.16.2.2', type: 'server', x: 170, y: 280, fixed: false },
-  { id: 'redkali02', name: 'fll-redkali02', ip: '172.16.2.3', type: 'server', x: 240, y: 280, fixed: false },
+  { id: 'masa01', name: 'fmasa01', ip: '172.16.2.6', type: 'server', x: 170, y: 200, fixed: false },
+  { id: 'masa02', name: 'masa02', ip: '172.16.2.7', type: 'server', x: 240, y: 200, fixed: false },
+  { id: 'red-guac', name: 'red-guac', ip: '172.16.2.253', type: 'server', x: 100, y: 280, fixed: false },
+  { id: 'redkali01', name: 'redkali01', ip: '172.16.2.2', type: 'server', x: 170, y: 280, fixed: false },
+  { id: 'redkali02', name: 'redkali02', ip: '172.16.2.3', type: 'server', x: 240, y: 280, fixed: false },
   
   // AWS nodes
   { id: 'internet-gateway', name: 'Internet Gateway', ip: '', type: 'gateway', x: 700, y: 170, fixed: false },
